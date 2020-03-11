@@ -1,0 +1,83 @@
+body,h1,h2,h5,h6 {font-family: 'GlacialIndifferenceRegular', sans-serif;}
+h3,h4,button {font-family: 'Fredoka One', cursive;}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  color: #142b4d;
+  background: #dcf5ea;
+}
+
+/* Full height image header */
+.image-header {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/header.jpg");
+  min-height: 20%;
+  style: flex;
+}
+
+.button {
+}
+
+.container {
+    style: flex;
+    padding: 100px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.container2 {
+  style: flex;
+  padding: 50px;
+  text-align: center;
+  flex-direction: row;
+  color: white;
+  background: #001830;
+}
+
+.icons {
+  style: flex;
+  flex-direction: column;
+  margin: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.footer {
+
+}
+
+.short-input
+{
+  width: 50%;
+}
+
+.long-input {
+  height: 100px;
+  width: 50%;
+}
+
+footer {
+  color: white;
+  background: #46526a;
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.map {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
